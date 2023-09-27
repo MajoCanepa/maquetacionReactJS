@@ -11,9 +11,11 @@
     display: grid;
     grid-template-rows: auto 1fr auto;
   }
+
   
   .navbar {
     background-color: #10001bb0; 
+    
   }
   
   .navbar-light .navbar-brand {
@@ -27,7 +29,7 @@
 
   #formLogin input[type="text"]:hover,
   #formLogin input[type="password"]:hover {
-    border-color: #10001bb0;
+    border-color: #10001b;
   }
 
   #formLogin button {
@@ -40,3 +42,4 @@
   #formLogin button:hover {
     background-color: black;
   }
+
